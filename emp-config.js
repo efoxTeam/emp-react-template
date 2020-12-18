@@ -18,7 +18,7 @@ module.exports = ({config, env, empEnv}) => {
       ...{
         ...empConfig,
         // 暴露项目的全局变量名
-        library: {type: 'var', name: empConfig.projectName},
+        library: {type: 'var', name: empConfig.name},
         // 被远程引入的文件名
         filename: 'emp.js',
       },
