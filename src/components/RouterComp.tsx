@@ -28,7 +28,7 @@ export const SwitchRouter = ({routes, onChange}: SwitchRouterProps) => {
 
   useEffect(() => {
     onChange?.()
-  }, [location])
+  }, [location, onChange])
   return (
     <Switch>
       {routes &&

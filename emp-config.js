@@ -1,5 +1,5 @@
 const {resolveApp} = require('@efox/emp-cli/helpers/paths')
-const empConfig = require(`${resolveApp('')}/emp.json`);
+const empConfig = require(`${resolveApp('')}/emp.json`)
 module.exports = ({config, env, empEnv}) => {
   const port = 8080
   const url = {
@@ -16,7 +16,16 @@ module.exports = ({config, env, empEnv}) => {
     args[0] = {
       ...args[0],
       ...{
-        ...empConfig,
+        name: 'empReact',
+        remotes: {},
+        exposes: {
+          './App': 'src/App',
+        },
+        shared: {
+          react: {eager: true, singleton: true, requiredVersion: '^16.13.1'},
+          'react-dom': {eager: true, singleton: true, requiredVersion: '^16.13.1'},
+          'react-router-dom': {requiredVersion: '^5.1.2'},
+        },
         // 被远程引入的文件名
         filename: 'emp.js',
       },
