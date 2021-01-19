@@ -1,5 +1,3 @@
-const {resolveApp} = require('@efox/emp-cli/helpers/paths')
-const empConfig = require(`${resolveApp('')}/emp.json`)
 module.exports = ({config, env, empEnv}) => {
   const port = 8080
   const url = {

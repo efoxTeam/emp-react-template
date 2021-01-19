@@ -1,10 +1,11 @@
 import React from 'react'
 import './index.scss'
+import logo from 'src/logo.svg'
 
 const Hello = () => {
   return (
     <div className="App">
-      <img src="src/logo.svg" className="App-logo" alt="logo" />
+      <img src={logo} className="App-logo" alt="logo" />
       <h1>Hello EMP</h1>
     </div>
   )

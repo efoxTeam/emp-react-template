@@ -2518,6 +2518,11 @@ arrify@^2.0.1:
   resolved "https://registry.npmjs.org/arrify/-/arrify-2.0.1.tgz#c9655e9331e0abcd588d2a7cad7e9956f66701fa"
   integrity sha512-3duEwti880xqi4eAMN8AyR4a0ByT90zoYdLlevfrvU43vb0YZwZVfxOgxWrLXXXpyugL0hNZc9G6BiB5B3nUug==
 
+asap@~2.0.6:
+  version "2.0.6"
+  resolved "https://registry.npm.taobao.org/asap/download/asap-2.0.6.tgz#e50347611d7e690943208bbdafebcbc2fb866d46"
+  integrity sha1-5QNHYR1+aQlDIIu9r+vLwvuGbUY=
+
 assign-symbols@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/assign-symbols/-/assign-symbols-1.0.0.tgz#59667f41fadd4f20ccbc2bb96b8d4f7f78ec0367"
@@ -3243,6 +3248,11 @@ core-js-pure@^3.8.1:
   version "3.8.2"
   resolved "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.8.2.tgz#286f885c0dac1cdcd6d78397392abc25ddeca225"
   integrity sha512-v6zfIQqL/pzTVAbZvYUozsxNfxcFb6Ks3ZfEbuneJl3FW9Jb8F6vLWB6f+qTmAu72msUdyb84V8d/yBFf7FNnw==
+
+core-js@^3.6.5:
+  version "3.8.2"
+  resolved "https://registry.npmjs.org/core-js/-/core-js-3.8.2.tgz#0a1fd6709246da9ca8eff5bb0cbd15fba9ac7044"
+  integrity sha512-FfApuSRgrR6G5s58casCBd9M2k+4ikuu4wbW6pJyYU7bd9zvFc9qf7vr5xmrZOhT9nn+8uwlH1oRR9jTnFoA3A==
 
 core-util-is@~1.0.0:
   version "1.0.2"
@@ -6775,6 +6785,11 @@ path-type@^4.0.0:
   resolved "https://registry.yarnpkg.com/path-type/-/path-type-4.0.0.tgz#84ed01c0a7ba380afe09d90a8c180dcd9d03043b"
   integrity sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==
 
+performance-now@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/performance-now/download/performance-now-2.1.0.tgz#6309f4e0e5fa913ec1c69307ae364b4b377c9e7b"
+  integrity sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+
 picomatch@^2.0.4, picomatch@^2.0.5, picomatch@^2.2.1:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.2.2.tgz#21f333e9b6b8eaff02468f5146ea406d345f4dad"
@@ -7260,6 +7275,13 @@ promise-inflight@^1.0.1:
   resolved "https://registry.yarnpkg.com/promise-inflight/-/promise-inflight-1.0.1.tgz#98472870bf228132fcbdd868129bad12c3c029e3"
   integrity sha1-mEcocL8igTL8vdhoEputEsPAKeM=
 
+promise@^8.1.0:
+  version "8.1.0"
+  resolved "https://registry.npm.taobao.org/promise/download/promise-8.1.0.tgz#697c25c3dfe7435dd79fcd58c38a135888eaf05e"
+  integrity sha1-aXwlw9/nQ13Xn81Yw4oTWIjq8F4=
+  dependencies:
+    asap "~2.0.6"
+
 prompts@2.4.0:
   version "2.4.0"
   resolved "https://registry.npmjs.org/prompts/-/prompts-2.4.0.tgz#4aa5de0723a231d1ee9121c40fdf663df73f61d7"
@@ -7325,6 +7347,13 @@ querystringify@^2.1.1:
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
   integrity sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==
 
+raf@^3.4.1:
+  version "3.4.1"
+  resolved "https://registry.npm.taobao.org/raf/download/raf-3.4.1.tgz#0742e99a4a6552f445d73e3ee0328af0ff1ede39"
+  integrity sha1-B0LpmkplUvRF1z4+4DKK8P8e3jk=
+  dependencies:
+    performance-now "^2.1.0"
+
 randombytes@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
@@ -7346,6 +7375,18 @@ raw-body@2.4.0:
     http-errors "1.7.2"
     iconv-lite "0.4.24"
     unpipe "1.0.0"
+
+react-app-polyfill@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/react-app-polyfill/download/react-app-polyfill-2.0.0.tgz#a0bea50f078b8a082970a9d853dc34b6dcc6a3cf"
+  integrity sha1-oL6lDweLiggpcKnYU9w0ttzGo88=
+  dependencies:
+    core-js "^3.6.5"
+    object-assign "^4.1.1"
+    promise "^8.1.0"
+    raf "^3.4.1"
+    regenerator-runtime "^0.13.7"
+    whatwg-fetch "^3.4.1"
 
 react-dev-utils@^11.0.0:
   version "11.0.1"
@@ -7488,7 +7529,7 @@ regenerate@^1.4.0:
   resolved "https://registry.yarnpkg.com/regenerate/-/regenerate-1.4.1.tgz#cad92ad8e6b591773485fbe05a485caf4f457e6f"
   integrity sha512-j2+C8+NtXQgEKWk49MMP5P/u2GhnahTtVkRIHr5R5lVRlbKvmQ+oS+A5aLKWp2ma5VkT8sh6v+v4hbH0YHR66A==
 
-regenerator-runtime@^0.13.4:
+regenerator-runtime@^0.13.4, regenerator-runtime@^0.13.7:
   version "0.13.7"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
   integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
@@ -8928,6 +8969,11 @@ websocket-extensions@>=0.1.1:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
   integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
+
+whatwg-fetch@^3.4.1:
+  version "3.5.0"
+  resolved "https://registry.npm.taobao.org/whatwg-fetch/download/whatwg-fetch-3.5.0.tgz#605a2cd0a7146e5db141e29d1c62ab84c0c4c868"
+  integrity sha1-YFos0KcUbl2xQeKdHGKrhMDEyGg=
 
 which-typed-array@^1.1.2:
   version "1.1.4"
