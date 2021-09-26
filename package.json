@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "emp dev",
+    "dev": "emp dev -wl",
     "build": "emp build --env dev",
     "build:test": "emp build --env test",
     "build:prod": "emp build --env prod",
@@ -14,19 +14,19 @@
     "start": "emp serve"
   },
   "devDependencies": {
-    "@efox/emp-cli": "latest",
-    "@efox/emp-tsconfig": "latest",
-    "@efox/eslint-config-react-prittier-ts": "^1.0.18",
-    "@types/react": "^16.9.48",
-    "@types/react-dom": "^16.9.8",
-    "@types/react-router-dom": "^5.1.5",
-    "eslint-plugin-react-hooks": "^4.1.2",
-    "react-app-polyfill": "^2.0.0"
+    "@efox/emp-cli": "1.9.9-0",
+    "@efox/emp-tsconfig": "1.1.3",
+    "@efox/eslint-config-react-prittier-ts": "^1.2.6",
+    "@types/react": "^17.0.24",
+    "@types/react-dom": "^17.0.9",
+    "@types/react-router-dom": "^5.3.0",
+    "react-app-polyfill": "^2.0.0",
+    "typescript": "^4.4.3"
   },
   "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-router-dom": "^5.1.2"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.3.0"
   },
   "browserslist": {
     "production": [

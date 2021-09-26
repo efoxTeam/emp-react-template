@@ -1,5 +1,5 @@
 # EMP React Template
-
+> 更新到适配 1.9.+
 ## 目录架构
 
 ```
