@@ -1,4 +1,4 @@
-import React, {useEffect, Suspense} from 'react'
+import {useEffect, Suspense} from 'react'
 import {BrowserRouter as Router, Route, Switch, useLocation} from 'react-router-dom'
 import Hello from 'src/page/Hello'
 import {RouterCompProps, SwitchRouterProps} from 'src/types'
